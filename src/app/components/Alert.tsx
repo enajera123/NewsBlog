@@ -25,7 +25,7 @@ function Alert({ message, title, type }: { message: string, title: string, type:
 
     return (
 
-        <div className={`p-4 mb-4 text-base rounded-lg bg-gray-800 ${colorClasses}`} >
+        <div className={`p-4 mb-4 h-40 text-base rounded-lg bg-gray-800 ${colorClasses}`} >
             <span className="font-medium">{title}!</span> {message}
         </div>
     )
