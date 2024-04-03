@@ -20,10 +20,12 @@ function Dashboard() {
       </div>
       {
         data && data?.map((item, index) => (
-          <NewItem
-            item={item}
-            key={index}
-          />
+          <div>
+            <NewItem
+              item={item}
+              key={index}
+            />
+          </div>
         ))
       }
     </>
